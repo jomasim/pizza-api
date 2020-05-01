@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Str;
 
+// DATABASE CONFIGS
+
 $DATABASE_URL = parse_url('mysql://trznxbbgyz36hhgq:cqs45vtl89e3a4i0@otmaa16c1i9nwrek.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/gxo7awa9h5rtpzsz');
 
 return [
