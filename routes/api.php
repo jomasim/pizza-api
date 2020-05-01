@@ -14,9 +14,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
-Route::get('/pizza', function (Request $request) {
-    return "Welcome to pizza api";
-});
+
+Route::get('/products', 'ProductsController@getProducts');
