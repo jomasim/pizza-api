@@ -16,3 +16,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/products', 'ProductsController@getProducts');
+Route::post('/orders', 'OrdersController@saveOrder');
